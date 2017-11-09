@@ -47,7 +47,7 @@ class Board
 
 
   def size
-    grid.size
+    grid
   end
 
   alias_method :rows, :size
